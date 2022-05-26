@@ -1,0 +1,256 @@
+<html>
+  <head>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eNGOy</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <script defer src="/__/firebase/9.6.6/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.6.6/firebase-performance-compat.js"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyCv-EhIRsMewsIeFdV_SpKzQzmKW7SrizI",
+        authDomain: "akshatjha-xyz.firebaseapp.com",
+        projectId: "akshatjha-xyz",
+        storageBucket: "akshatjha-xyz.appspot.com",
+        messagingSenderId: "675776972430",
+        appId: "1:675776972430:web:63bcb674d6c91c80bf6bdf",
+        measurementId: "G-GYSVW2M8ZR"
+      };
+    
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script defer src="/__/firebase/init.js?useEmulator=false"></script>
+  </head>
+  <body>
+    <header class="text-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex-none flex title-font font-medium items-center mb-4 md:mb-0">
+            
+            <img src="">
+            <div class="ml-3 text-2xl">eNGOy</div>
+          </a>
+          <div class="flex-auto justify-right flex">
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-green-500" href="donate/index.html">Donate</a>
+            <a class="mr-5 hover:text-green-500" href="ngo/index.html" >NGOs</a>
+            <a class="mr-5 hover:text-green-500" href="blog/index.html">Blog</a>
+          </nav>
+          <span class="inline-flex items-center justify-right">
+        
+            <a class="ml-4 text-gray-500 hover:text-green-500" href="https://www.instagram.com/engoy.nonprofit/"> 
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500 hover:text-green-500" href="https://www.linkedin.com/company/engoyorg">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500 hover:text-green-500" href="https://www.facebook.com/eNGOy-104753472251386/">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500 hover:text-green-500" href="https://twitter.com/infoeNGOy"> 
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+          </span>
+          </div>
+        </div>
+      </header>
+      
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Mission</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">eNGOy is an initiative of Sheraz Alam, a 15-year-old high school student from Mysuru, India. There are many not-so-well-known NGOs that close due to lack of funds, eNGOy is a non-profit organization that connects donors to such small NGOs all over India. This user-friendly platform does not charge any fee on donations made by individuals to needy NGOs. A thorough screening of NGOs ensure that only the genuine ones are on-boarded. Donations made here are also eligibile for tax exemptions as per the NGOs' certifications. Through this platform, we strive to raise awareness and build trust for the social sector. We, at eNGOy, are committed to our purpose of supporting NGOs that work with a burning desire to make a difference!</p>
+          </div>
+          <div class="flex flex-wrap -m-4 text-center">
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="text-green-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 26 26">
+                  <path d="M21.19 7h2.81v15h-21v-5h-2.81v-15h21v5zm1.81 1h-19v13h19v-13zm-9.5 1c3.036 0 5.5 2.464 5.5 5.5s-2.464 5.5-5.5 5.5-5.5-2.464-5.5-5.5 2.464-5.5 5.5-5.5zm0 1c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm.5 8h-1v-.804c-.767-.16-1.478-.689-1.478-1.704h1.022c0 .591.326.886.978.886.817 0 1.327-.915-.167-1.439-.768-.27-1.68-.676-1.68-1.693 0-.796.573-1.297 1.325-1.448v-.798h1v.806c.704.161 1.313.673 1.313 1.598h-1.018c0-.788-.727-.776-.815-.776-.55 0-.787.291-.787.622 0 .247.134.497.957.768 1.056.344 1.663.845 1.663 1.746 0 .651-.376 1.288-1.313 1.448v.788zm6.19-11v-4h-19v13h1.81v-9h17.19z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                <p class="leading-relaxed">Donated</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-green-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+                <p class="leading-relaxed">Donors</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8" class="text-green-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M21 22h2v2h-22v-2h2v-22h18v22zm-10-3h-2v4h2v-4zm4 0h-2v4h2v-4zm4-17h-14v20h2v-5h10v5h2v-20zm-12 11h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-8-3h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-8-3h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-8-3h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+                <p class="leading-relaxed">NGOs Connected</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-green-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+                <p class="leading-relaxed">Places</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1">4 STEPS TO DONATE USING eNGOy</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">How eNGOy Works</h1>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-gray-200 border-opacity-60">
+              <h2 class="text-center w-full text-lg sm:text-xl text-green-600 font-medium title-font mb-2">Authenticate</h2>
+              <p class="leading-relaxed text-base mb-4">Every NGO on eNGOy is duly verified before it is on-boarded.</p>
+              
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-gray-200 border-opacity-60">
+              <h2 class="text-center w-full text-lg sm:text-xl text-green-600 font-medium title-font mb-2">Donate</h2>
+              <p class="leading-relaxed text-base mb-4">These NGOs may be sorted by their region or category. You may read about an NGO and its vision, and donate to it.</p>
+              
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-gray-200 border-opacity-60">
+              <h2 class="text-center w-full text-lg sm:text-xl text-green-600 font-medium title-font mb-2">Coordinate</h2>
+              <p class="leading-relaxed text-base mb-4">The recipient NGO will email the tax exemption certificate to the donor as soon as possible.</p>
+              
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-gray-200 border-opacity-60">
+              <h2 class="text-center w-full text-lg sm:text-xl text-green-600 font-medium title-font mb-2">Spread smiles</h2>
+              <p class="leading-relaxed text-base mb-4">Spread the good word with your friends and invite them to join our family!</p>
+              
+            </div>
+          </div>
+          <button class="flex mx-auto mt-16 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Want to list your NGO on eNGOy?</button>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer class="text-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-green-600 tracking-widest text-sm mb-3">eNGOy</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href="donate/index.html" class="text-gray-900 hover:text-green-500">Donate</a>
+                </li>
+                <li>
+                  <a href="about/index.html" class="text-gray-900 hover:text-green-500">About</a>
+                </li>
+                <li>
+                  <a href="blog/index.html" class="text-gray-900 hover:text-green-500">Blog</a>
+                </li>
+                <li>
+                  <a href="contact/index.html" class="text-gray-900 hover:text-green-500">Contact</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-green-600 tracking-widest text-sm mb-3">COMPANY</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href="legal/about.html" class="text-gray-900 hover:text-green-500">About Us</a>
+                </li>
+                <li>
+                  <a href="legal/terms.html" class="text-gray-900 hover:text-green-500">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="legal/privacy.html" class="text-gray-900 hover:text-green-500">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="legal/refund.html" class="text-gray-900 hover:text-green-500">Refund Policy</a>
+                </li>
+              </nav>
+            </div>
+            
+            <div class="lg:w-1/2 md:w-full w-full px-4">
+              <h2 class="title-font font-medium text-green-600 tracking-widest text-sm mb-3">SUBSCRIBE TO eNGOy UPDATES</h2>
+              <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                  <label for="footer-field" class="leading-7 text-sm">Name</label>
+                  <input type="text" id="name1" name="entry.1979892717" class="w-full rounded border bg-opacity-40 border-green-600 bg-transparent focus:border-green-500 text-base outline-none text-gray-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                  <label for="footer-field" class="leading-7 text-sm">Email</label>
+                  <input type="text" id="email1" name="entry.1158518706" class="w-full rounded border bg-opacity-40 border-green-600 bg-transparent focus:border-green-500 text-base outline-none text-gray-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              
+                <button class="mt-2 lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded" onclick="postNewsletterForm()">Subscribe</button>
+                </div>
+                <p class="text-gray-500 text-sm mt-2 text-center">Don't worry, no spam! Please verify your details before submitting
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="bg-green-400 bg-opacity-75">
+          <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center">
+              <img src="assets/favicon.png" class="h-10">
+              <span class="ml-3 text-xl">eNGOy</span>
+            </a>
+            <p class="text-sm text-gray-900 sm:ml-6 sm:mt-0 mt-4">© 2022 eNGOy —
+              <a href="https://akshatjha.xyz/web-dev/" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">Built with ❤️ by ABowTieKindOfGuy</a>
+            </p>
+            
+          </div>
+          
+
+
+
+        </div>
+      </footer>
+
+
+  </body>
+
+</html>
